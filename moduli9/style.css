@@ -1,11 +1,75 @@
+body{
+    background: url(https://c02.purpledshub.com/uploads/sites/48/2021/04/what-are-stars-explained.jpg);
+}
+
 p{
 
-    color: blue;
+   
+    text-indent: 50px;
+    text-align: 20px;
     font-size: 20px;
-    margin: 100px 150px 100px 80px ;
-    padding-top: 100px ;
-    padding-bottom: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
+    font
+    font-family: 
+    
+}
+
+div{
+    background-color: lightgray;
+    width: 320px;
+    border: 5px solid green;
+    padding: 10px;
+    margin: 0px;
+}
+h1{
+    color: darkmagenta;
+    letter-spacing: 5px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h2{
+    color: red;
+    word-spacing: 20px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+
+h3{
+    color: yellow;
+    text-decoration: overline;
+   
+}
+
+
+h4{
+    color: green;
+    text-decoration: line-through;
+}
+
+h5{
+    color: purple;
+    text-decoration: underline;
+}
+
+h6{ 
+    color: aqua;
+}
+
+a:link{
+    color: red
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: hotpink;
+}
+
+a:active{
+    color: blue;
 
 }
+
