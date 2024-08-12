@@ -1,7 +1,7 @@
 ul{
     list-style-type: circle;
     border-left: 5px solid green;
-    background-color: gray;
+    background-color: #f1f1f1;
     padding: 15px 25px;
     font-size: 20px;
 }
@@ -20,14 +20,14 @@ ol li
     margin-left: 30px;
     border-bottom: 1px solid green;
 }
-tbody tr:nth-child(even){
-    background-color: pink;
+tbody tr:nth-child(odd){
+    background-color: #ff33cc;
 }
 
 tbody tr:nth-child(even){
-    background-color: aqua;
+    background-color:  #e495e4;
 }
-td.th{
+td,th{
     border: 1px solid green;
     padding: 15px;
 }
@@ -35,7 +35,7 @@ td.th{
 
 div{
     overflow: scroll;
-    background-color: pink;
+    background-color: #e495e4;
     width: 400px;
     height: 200px;
 
