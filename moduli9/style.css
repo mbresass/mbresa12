@@ -6,14 +6,14 @@ p{
 
    
     text-indent: 50px;
-    text-align: 20px;
+    text-align: left;
     font-size: 20px;
-    font
-    font-family: 
+    font-weight: bold;
+    font-style: oblique
     
 }
 
-div{
+.headings{
     background-color: lightgray;
     width: 320px;
     border: 5px solid green;
