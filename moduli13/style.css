@@ -33,7 +33,7 @@ td.th{
 }
 
 
-div{
+.text{
     overflow: scroll;
     background-color: pink;
     width: 400px;
