@@ -116,13 +116,15 @@ nav ul li.active{
     line-height: 26px;
 }
 
-
 #section-3{
     background-color: blue;
     min-height: 820px;
     color: white;
 }
 
-#contact-form {
-    
+#contact-form{
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
