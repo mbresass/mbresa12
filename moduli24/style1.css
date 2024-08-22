@@ -1,0 +1,11 @@
+.circle{
+    height: 200px;
+    width: 150px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: blueviolet;
+    margin: 0;
+    border-radius: 0;
+
+   
+}
