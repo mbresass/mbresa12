@@ -18,14 +18,14 @@ function showCurrentTime(){
     }
 
 
-    var clockTime = hours + ":" + minutes + ":" + seconds + " " + meridian;
+    var clockTime = hours + ":"+ minutes + ":"+ seconds + " " + meridian;
     clock.innerText = clockTime
     changeImage()
 
 }
 
-
 setInterval(showCurrentTime, 1000)
+
 
 
 function changeImage(){
@@ -34,30 +34,30 @@ function changeImage(){
 
     var image = "img/ds_clock.png"
     var imageHTML = document.getElementById("timeImage")
-    
+
     if(time==wakeuptime){
         var image = "img/morning.gif"
         console.log(image)
+
     }
 
-    else if (time==dstime){
+    else if(time==dstime){
         image = "img/class.gif"
     }
 
-    else if (time==sleeptime){
-        image = "img/night.gif"
+    else if(time==sleeptime){
+        image  = "img/night.gif"
     }
-
-
 
     imageHTML.src = image
     console.log(imageHTML.src)
-
 }
+
 
 function updateClock(){
     var wakeUpTimeSelector = document.getElementById("wakeUpTimeSelector")
     wakeuptime = wakeUpTimeSelector.value;
+
 
     var dsTimeSelector = document.getElementById("dsTimeSelector")
     dstime = dsTimeSelector.value
