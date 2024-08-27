@@ -30,6 +30,6 @@ console.log("------------------")
 var f = 0;
 
 do{
-    f=f+1
+    f=f+1;
     console.log(f);
 }while(f<5);
