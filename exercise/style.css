@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: aqua;
+    margin: 0px;
+    padding: 50px;
+}
+
+
+.container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.hidden{
+    display: none;
+}
+
+
+#result{
+    margin: 20px;
+    font-size: 20px;
+}
